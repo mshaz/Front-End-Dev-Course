@@ -1,0 +1,116 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 120px 0;
+    color: #000000;
+    background-color: #3BB9FF;
+}
+
+ul {
+    padding:0 ;
+
+}
+
+li {
+    
+    list-style: none;
+}
+
+.main-block {
+    line-height: 1.5;
+    position: relative;
+    box-sizing: border-box;
+    width: 1005;
+    max-width: 630px;
+    margin: 0 auto;
+    padding: 80px 75px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #fbf8f8;
+}
+
+.avatar-image {
+    
+    position: absolute;
+    top: -40px;
+    left: 40%;
+    width: 120px;
+    height: 120px;
+   
+    border-radius: 50%;
+    
+    background: url('../images/profilepic.png');
+    background-size: cover;
+}
+
+.name-header {
+    font-size: 40px;
+    font-height: 600;
+    line-heigt: 1.3;
+    margin:9px 0 24px;
+    color: #6666ff;
+}
+    
+.name-subheader { 
+    
+    font-size: 21px;
+    font-height: 600;
+    line-heigt: 1.3;
+    margin:9px 0 0;
+    color: #808080;
+    }
+    
+      
+.full-info {
+        
+    font-size: 16px;
+    margin:20px;
+    }
+
+.list-info {
+        
+    font-size: 14px;
+    margin:0;
+    text-transform: uppercase;
+    }
+     
+.info-header {
+    
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.3;
+    
+    margin: 30px 0 6px;
+        
+    }
+    
+.socials
+    {
+        
+    margin-top: 30px;
+    }
+    
+.socials li{
+        display:inline-block;
+    }
+    
+.social-image {
+        display: block;
+        width: 40px;
+        margin-right: 12px;
+        -webkit-transition: -webkit-transform .4s ease-in;
+        -webkit-transition: -webkit-transform .4s ease-in;
+      
+        
+    }
+    
+.social-image:hover {
+        
+        -webkit-transform:scale(1.1);
+                transform:scale(1.1);
+    }
+    
+    
+.social-image img{
+        width: 100%
+        
+    }
